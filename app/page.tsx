@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { Navbar } from "./src/features/navigation/components/Navbar"
+import { Hero } from './src/features/header/components/Hero'
 
 export default function Home() {
   return (
-    <Navbar></Navbar>
+    <Hero />
   );
 }
